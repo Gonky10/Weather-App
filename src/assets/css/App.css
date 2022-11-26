@@ -1,0 +1,145 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: revert !important;
+}
+
+
+.App {
+  text-align: center;
+}
+.input-group{
+  width: 80%;
+}
+
+.card {
+  max-width: 65%;
+}
+
+.card-titleAdate {
+  font-family: "Agency FB";
+  position: absolute;
+  margin-top:  15px;
+  margin-left: 20px;
+}
+
+.card-title{
+  font-size: 45px;
+}
+
+.backNameCity{
+  background-color: rgb(87, 87, 87);
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 10px;
+}
+
+.card-temp{
+  font-family: "Agency FB";
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 280px;
+  font-size: 50px;
+}
+
+.card-text {
+  font-family: "Agency FB";
+  font-size: 20px;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 20px;
+}
+
+.card-body{
+  height: 50px;
+  width: 50px
+}
+
+.textContainer {
+ text-align: start;
+}
+
+.text{
+  font-family: "Agency FB";
+  font-size:0.6cm;
+  margin: 10px;
+  font-style:unset;
+  font-weight: 390;
+}
+
+.row-mt-4{
+  display: flex;
+}
+
+.navbar{
+  font-family: "Agency FB";
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+  border-radius: 10px;
+  background-color: #271f1f;
+  margin: 5px
+}
+
+.textInbar{
+  margin-right: 20px;
+  color: rgb(155, 152, 152);
+}
+
+.titleContainer{
+  color: black;
+margin-right: 285px;
+border: 3px solid grey;
+padding: 3px;
+}
+
+.sinCities{
+  font-family: "Agency FB";
+  border: 5px solid rgb(87, 87, 87);
+  margin-left: 440px;
+  margin-bottom: 80px;
+  width:fit-content;
+  background-color: #271f1f;
+  border-radius: 20px;
+  margin-top: 80px;
+}
+
+
+
+.lds-ripple{
+  margin-top: 20px;
+  margin-left: 550px;
+}
+
+.toast:not(.show) {
+  background-color: black;
+  display: inherit;
+  margin-left: 500px;
+  margin-top: 180px;
+}
+
+.formAndCardContainer{
+  top: 0;
+  left: 0;
+  background-image: url('../../images/intro.jpg');
+  display: inline-block;
+  /* flex: 1; */
+  background-size: 100%;
+
+  min-height: 100vh;
+  width: 100%; 
+
+}
+
+.AllContainer{
+  width: 1150px;  
+  padding: 0px;
+  margin-left: 110px;
+  margin-top: 15px;
+  border: 5px solid grey;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgb(155, 155, 155), black);
+
+}

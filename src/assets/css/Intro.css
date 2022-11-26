@@ -1,0 +1,14 @@
+
+.introContainer{
+        background-image: url("../../images/intro.jpg");
+        padding: 40px;
+        min-height: 100vh;
+        background-size: 100% 100%;
+         width: 100%; 
+}
+
+#icon{
+        height: 25px;
+        width: 25px;
+        margin-right: 20px;
+}
